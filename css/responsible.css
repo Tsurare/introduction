@@ -1,0 +1,134 @@
+@media (min-width:768px){
+    .shape-2418::before{
+    transform:scale(1.6);
+    transform-origin: 100% 0;
+    animation: 10s infinite alternate shape-anim-2418-mobile linear;
+    background-size: 100% 89px;
+    background-position: 50% 0%;   
+    }
+
+    .title {
+        font-size: 110px;
+    }
+
+    .sub-title {
+        font-size: 60px;
+    }
+    
+    .ribbon22 h3 {
+        font-size: 24px;
+    }
+
+    .p-text, .human-p {
+        font-size: 20px;
+    }
+
+    .yudaman-img {
+        width: 30%;
+        height: 30%;
+    }
+
+    .shape-140{
+        height: 250px;
+    }
+
+    .human-section {
+        display: flex;
+    }
+
+    .human-contents {
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+
+    .shape-140::before {
+        background-size: 100% 202px;
+        background-position: 50% 0%;   
+    }
+        
+    .section-title {
+            font-size: 30px;
+    }
+    
+    .section-back {
+            height: 90px;
+    }
+}
+
+@media (min-width:1024px){
+    .shape-2418::before{ 
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -0.1vw;
+    top: -0.1vw; 
+    transform:scale(1.6);
+    transform-origin: 100% 0;
+    animation: 10s infinite alternate shape-anim-2418-mobile  linear;
+    background-size: 100% 89px;
+    background-position: 50% 0%;  
+    }
+
+    .ribbon22 h3 {
+        font-size: 28px;
+        padding: 10px 30px;
+    }
+
+    .ribbon22:before {
+        width: 50px;
+        height: 50px;
+        background: #42454e;
+        bottom: -22px;
+        left: -25px;
+      }
+      
+      .ribbon22:after {
+        width: 50px;
+        height: 50px;
+        background: #42454e;
+        bottom: -25px;
+        right: -35px;
+      }
+
+
+    .p-text, .human-p {
+        font-size: 24px;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .section-back {
+        height: 90px;
+        margin-top: 400px;
+    }
+
+    .yudaman-img {
+        width: 20%;
+        height: 20%;
+    }
+
+    @media (min-width:1025px){
+        .shape-140::before{ 
+        bottom: -0.1vw;
+        left: -0.1vw;
+        right: -0.1vw;
+        top: -0.1vw; 
+        background-size: 100% 267px;
+        background-position: 50% 0%;  
+        background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 773.74 154.98"><g fill="%2300bfff"><path d="M0 0h773.74L386.87 77.5Z"/><path d="m0 0 386.87 154.98L773.74 0Z" opacity=".66"/></g></svg>'); 
+        }
+    
+        .section-title {
+            font-size: 35px;
+        }
+    
+        .section-back {
+            height: 75px;
+        }
+    
+        .shape-140{
+            height: 320px;
+        }
+    }
+}

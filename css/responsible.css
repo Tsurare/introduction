@@ -53,6 +53,14 @@
     .section-back {
             height: 90px;
     }
+
+    iframe {
+        height: 450px;
+    }
+
+    .movie-section-title {
+        font-size: 24px;
+    }
 }
 
 @media (min-width:1024px){
@@ -108,6 +116,10 @@
         height: 20%;
     }
 
+    .movie-section-title {
+        font-size: 30px;
+    }
+
     @media (min-width:1025px){
         .shape-140::before{ 
         bottom: -0.1vw;
@@ -129,6 +141,10 @@
     
         .shape-140{
             height: 320px;
+        }
+
+        iframe {
+            height: 750px;
         }
     }
 }
